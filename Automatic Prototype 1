@@ -18,5 +18,7 @@ Example: AX, AY, AZ, GX, GY, GZ
          First, I iterateed through the dictionary, but only accessing the keys and not the values, so that I could make the top row of the string.
          Then, I created a nested for loop. The first loop was a simple for loop that ran 300 times, since there were 300 values in each of the lists. The nested for loop, iterated through each key of the dictionary. This allowed me to print out the values in the correct format. For example, the value at index 0 for all lists would be printed horizontally on the second line of the string and so on. Along the way, there were several fixes to new line syntax and spaces that I had to fix, but eventually I created a string which could feasibly be converted into a csv file using FileManager inside of xCode.
          
-         Now, all there was left to do was write this string to a file and save it. 
+         Now, all there was left to do was write this string to a file and save it. After several google searches, I found the syntax to do this, which was quite simple. 
+         
+         And that's it! That is how I created the first prototype of my motion sensor artificial intelligence watch OS app. It truly allowed me to grasp a better understanding of the data and was a great first step towards a minimal product😄!
 
