@@ -1,1 +1,6 @@
+The main goal of the first prototype of Automatic was to take a step back and really get a good look at the data I was using to train my artificial intelligence. The best way I could possibly do this was to record motion sensor data, round everything to the nearest hundereth, and save it in a local csv file. I did not have to worry about training the AI or using the data for a greater purpose. All I wanted to do was get cleaned up motion sensor data, so that I could see the correlations between their fluctuations and an basketball shot motion. 
+
+My interface was quite simple. It hosted a button that when clicked, would initiate a 3 second long sample of motion sensor recording. After that, this data would be saved to a csv and also be printed to the log. I could then as a developer, look at the data and see how it responds to specific movements. I hoped that I could use this prototype to figure out a threshold of some sorts that I could use to encapsulate my jump shot within a tight window. 
+
+That's the simple rundown of the prototype. Now let's get down to the logic!
 
